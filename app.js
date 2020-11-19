@@ -66,7 +66,7 @@ function generateMainPage() {
   return `
       <div class="mainPage">
         <h2>Click on and take the quiz to test your knowledge on TV rerun's favorite gang of kids.</h2>
-        <img src="download.jpg" alt="Group Photo">
+        <img src="/download.jpg" alt="Group Photo">
         <p>Don't worry, Belding won't see these test results.</p>
         <button type='submit' id="startquiz">Start Quiz</button>
         </form>
