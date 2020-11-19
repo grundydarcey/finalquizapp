@@ -9,6 +9,10 @@ header {
   img {
     max-width: 200px;
   }
+
+  p {
+      font-size: 20px;
+    }
   
   main {
     margin: 75px 20px 40px 20px;
