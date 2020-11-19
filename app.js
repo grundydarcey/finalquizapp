@@ -66,7 +66,7 @@ function generateMainPage() {
   return `
       <div class="mainPage">
         <h2>Click on and take the quiz to test your knowledge on TV rerun's favorite gang of kids.</h2>
-        <img src="grundydarcey.github.io/download.jpg" alt="Group Photo">
+        <img src="https://grundydarcey.github.io/download.jpg" alt="Group Photo">
         <p>Don't worry, Belding won't see these test results.</p>
         <button type='submit' id="startquiz">Start Quiz</button>
         </form>
@@ -99,9 +99,9 @@ function generateQuestionPage() {
 function generateFeedbackPage(){
   let results = '';
   if(store.currentAnswer===store.questions[store.questionNumber].correctAnswer){
-    results = `<img src="grundydarcey.github.io/cheer.gif" alt="Cheering for your right answer"><br>You really know your stuff!`;
+    results = `<img src="https://grundydarcey.github.io/cheer.gif" alt="Cheering for your right answer"><br>You really know your stuff!`;
   } else{
-    results = `<img src="grundydarcey.github.io/tear.gif" alt="Now you're crying"><br>Maybe it's time to hit the books.`;
+    results = `<img src="https://grundydarcey.github.io/tear.gif" alt="Now you're crying"><br>Maybe it's time to hit the books.`;
   }
   return`
   <div class="mainPage">
@@ -118,9 +118,9 @@ function generateFeedbackPage(){
 function generateFinalPage(){
   let results = '';
   if (store.currentAnswer === store.questions[store.questionNumber].correctAnswer) {
-    results = `<img src="grundydarcey.github.io/shake.gif" alt="You're done now!"><br>You really know your stuff!`;
+    results = `<img src="https://grundydarcey.github.io/shake.gif" alt="You're done now!"><br>You really know your stuff!`;
   } else {
-    results = `<img src="grundydarcey.github.io/nope.gif" alt="Close but no cigar"><br>Maybe it's time to hit the books.`;
+    results = `<img src="https://grundydarcey.github.io/nope.gif" alt="Close but no cigar"><br>Maybe it's time to hit the books.`;
   }
   return`
   <div class="mainPage">
