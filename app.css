@@ -1,0 +1,42 @@
+header {
+    background-color: #fff;
+    text-align: center;
+    margin: 15px 60px 15px 60px;
+    border: 6px solid black;
+  }
+  
+  img {
+    max-width: 200px;
+  }
+  
+  main {
+    margin: 75px 20px 40px 20px;
+    padding-bottom: 15px;
+    border: 4px solid black;
+    text-align: center;
+    width: 75wv;
+    background-color:lightgoldenrodyellow;
+  }
+  
+  
+  body {
+    background-image: url("../images/retrooo.jpg");
+  }
+  
+  .queOne {
+    margin: 10px;
+  }
+  
+  @media all and (max-width: 600px) {
+    header {
+        width: 80vw;
+    }
+  
+    img {
+      width: 200px;
+    }
+  
+    body {
+      background-image: url("../images/retrooo.jpg");
+    };
+  }
